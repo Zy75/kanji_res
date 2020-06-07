@@ -55,7 +55,8 @@ python3 6_get_pinin_table.py > pinin_table.txt
 
 python3 8_get_onyomi.py > kanwa.txt
 
-
 ```
 
 3から5のget_wiktionaryで始まるスクリプトは今回は使用しなかったので飛ばした。
+
+少し自分でゴミ取りをする必要がある。
