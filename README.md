@@ -27,7 +27,7 @@ pinin_table.txt : 声調つきピンインと声調なしピンインの対応�
 
 ### 使い方
 
-リポジトリに含まれていた、cjiten.txt,kanwa.txt,pinin_table.txtを使うことにする。自分でファイルを作る方法は後で解説する。
+リポジトリに含まれていた、cjiten.txt,kanwa.txt,pinin_table.txtを使うことにする。自分でファイルを作る場合は後で解説する。
 
 input.txtに声調なしのピンインを並べる。
 
@@ -55,8 +55,9 @@ python3 6_get_pinin_table.py > pinin_table.txt
 
 python3 8_get_onyomi.py > kanwa.txt
 
+
 ```
 
 3から5のget_wiktionaryで始まるスクリプトは今回は使用しなかったので飛ばした。
 
-少し自分でゴミ取りをする必要がある。
+少しゴミ取りが必要。
