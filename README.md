@@ -29,9 +29,9 @@ pinin_table.txt : 声調つきピンインと声調なしピンインの対応�
 
 リポジトリに含まれている、cjiten.txt、kanwa.txt、pinin_table.txtを使うことにする。自分でファイルを作る場合は後で解説する。
 
-まず、input.txtに声調なしのピンインを並べる。
+まず、input.txtに声調なしのピンインを連ねる。例えば、xで始まるピンインの漢字を調べたければ、xに全ての母音をつけて一行に一つずつ書く。ingの母音で終わるピンインの漢字を調べたければ、前に全ての子音をつけて記述する。
 
-以下のスクリプトを実行すると、input.txtに対応する漢字の、声調つきピンインと、日本語の音読みをプリントする。
+以下のスクリプトを実行すると、input.txtに含まれる漢字の、声調つきピンインと、日本語の音読みをプリントする。このスクリプトの実行にSeleniumのセットアップは必要ない。
 
 ```
 python3 9_make_list.py
@@ -42,10 +42,12 @@ python3 9_make_list.py
 ### 自分でデータファイルを作る
 
 環境：
+
 OS: Fedora Linux 30
+
 ブラウザ: Firefox
 
-Selenium Web DriverというWebページを自動巡回するソフトウェアを使って、辞書サイトなどから自動でデータを取得する。
+Selenium Web DriverというWebページを自動巡回するソフトウェアを使って、辞書サイトなどから自動でデータを取得する。SeleniumをOSにインストールする必要がある。
 
 まず、このリポのcjiten.txt,kanwa.txt,zh_jyouyou.txt,pinin_table.txt,wiktionary_complete.txtを削除する。
 
