@@ -1,7 +1,7 @@
 # kanji_res
 中国のピンインと日本の音読みの対応法則を知ることで、中国語学習に役立てる。
 
-ホームページ: https://spctx-tech.cocolog-nifty.com/blog/
+ホームページ: https://spctx-tech.cocolog-nifty.com/s5/2021/07/post-d6dde7.html
 
 ### どういうものか
 
